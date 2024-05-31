@@ -1,0 +1,48 @@
+.about {
+  margin-bottom: 100px;
+}
+.about .about_txt {
+  display: flex;
+  flex-direction: row;
+}
+.about .about__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordeon .accordion-block {
+  background-color: #FAF7F5;
+  padding-bottom: 100px;
+}
+.accordeon .accordion-block button:focus {
+  outline: none;
+}
+.accordeon .accordion {
+  background-color: #FAF7F5;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.accordeon .active, .accordeon .accordion:hover {
+  background-color: #FAF7F5;
+}
+.accordeon .active:focus {
+  border: none;
+  outline: none;
+}
+.accordeon .panel {
+  padding: 0px 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordeon .panel p {
+  margin: 15px 0px;
+}/*# sourceMappingURL=about.css.map */

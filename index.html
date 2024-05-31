@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>meow</title>
+    <link rel="stylesheet" href="style/meow.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="menu" id="menu">
+            <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+            <label for="burger-checkbox" class="burger"></label>
+            <ul class="menu-list">
+                <li><a href="#" class="menu-item">Номера и цены</a></li>
+                <li><a href="#" class="menu-item">Условия размещения</a></li>
+                <li><a href="#" class="menu-item">Заявка на размещение</a></li>
+                <li><a href="#" class="menu-item">Всё о нас</a></li>
+            </ul>
+        </div>
+
+        <div class="header">
+            <div class="nav">
+                <img class="logo" src="img/Лого.svg">
+                <div class="contacts">
+                    <div class="contacts_elem1">
+                        <img src="img/icons/icon_location.svg">
+                        <p>г. Санкт-Петербург ул. Ключевая, дом 32 </p>
+                    </div>
+                    <div class="contacts_elem1">
+                        <img src="img/icons/icon_time.svg">
+                        <p>Круглосуточно</p>
+                    </div>
+                    <div class="contacts_elem1">
+                        <img src="img/icons/icon_phone.svg">
+                        <p>+7 (905) 230-55-99</p>
+                    </div>
+                    <div class="contacts_elem2">
+                        <img src="img/icons/icon_insta.svg">
+                        <p>kotikozoohotel</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="menu_desktop">
+                <a>Номера и цены</a> <a>Условия размещения</a> <a>Заявка на размещение</a> <a>Всё о нас</a>
+            </div>
+        </div>
+
+        
+
+        
+        <div class="banner">
+            <div class="banner_text">
+                <h1 class="name">Гостиница для кошек с видеонаблюдением</h1>
+                <p class="txt">Будьте спокойны за вашего питомца, пока вы в отъезде</p>
+                <div class="form">
+                    <input class='text-field__input' type="text" placeholder="Имя">
+                    <input class='text-field__input' type="tel" placeholder="Телефон">
+                    <button class="button_1">Отправить заявку</button>
+                </div>
+            </div>
+            <img class="cats" src="./img/banner_cat.svg">
+        </div>
+
+        <div class="price">
+            <div class="price_txt">
+                <h1>Номера и цены</h1>
+                <p class="pink_txt" id="all">Все</p>
+                <p class="pink_txt" id="standart">Номера "СТАНДАРТ"</p>
+                <p class="pink_txt" id="plus">Номера "СТАНДАРТ+"</p>
+                <p class="pink_txt" id="lux">Номера "ЛЮКС"</p>
+            </div>
+
+            <div class="blocks_line">
+                <div class="block_standart">
+                    <img src="./img/стандарт.png">
+                    <div class="inblock_line">
+                        <p class="pink_txt_card">Номер "СТАНДАРТ"</p>
+                        <p class="txt1">700 руб./сутки</p>
+                    </div>
+                    <div class="inblock_line">
+                        <p class="txt2">Размер номера </p>
+                        <p class="txt3">1500*1500*2100 см</p>
+                    </div>
+                    <div class="inblock_line">
+                        <p class="txt2">Размер домиков</p>
+                        <p>32*32см</p>
+                    </div>
+                    <button class="main_button">Забронировать</button>
+                </div>
+
+                <div class="block_standart2">
+                    <img src="./img/стандарт+.png">
+                    <div class="inblock_line">
+                        <p class="pink_txt_card">Номер "СТАНДАРТ+"</p>
+                        <p class="txt1">800 руб./сутки</p>
+                    </div>
+                    <div class="inblock_line">
+                        <p class="txt2">Размер номера </p>
+                        <p class="txt3">1500*1500*2100 см</p>
+                    </div>
+                    <div class="inblock_line">
+                        <p class="txt2">Размер домиков</p>
+                        <p>32*32см</p>
+                    </div>
+                    <button class="main_button">Забронировать</button>
+                </div>
+
+                <div class="block_lux">
+                    <img src="./img/люкс.png">
+                    <div class="inblock_line">
+                        <p class="pink_txt_card">Номер "ЛЮКС"</p>
+                        <p class="txt1">1000 руб./сутки</p>
+                    </div>
+                    <div class="inblock_line">
+                        <p class="txt2">Размер номера </p>
+                        <p class="txt3">1500*1500*2100 см</p>
+                    </div>
+                    <div class="inblock_line">
+                        <p class="txt2">Размер домиков</p>
+                        <p>32*32см</p>
+                    </div>
+                    <button class="main_button">Забронировать</button>
+                </div>
+            
+            
+                <div class="block_standart">
+                    <img src="./img/стандарт.png">
+                    <div class="inblock_line">
+                        <p class="pink_txt_card">Номер "СТАНДАРТ"</p>
+                        <p class="txt1">700 руб./сутки</p>
+                    </div>
+                    <div class="inblock_line">
+                        <p class="txt2">Размер номера </p>
+                        <p class="txt3">1500*1500*2100 см</p>
+                    </div>
+                    <div class="inblock_line">
+                        <p class="txt2">Размер домиков</p>
+                        <p>32*32см</p>
+                    </div>
+                    <button class="main_button">Забронировать</button>
+                </div>
+
+                <div class="block_standart2">
+                    <img src="./img/стандарт+.png">
+                    <div class="inblock_line">
+                        <p class="pink_txt_card">Номер "СТАНДАРТ+"</p>
+                        <p class="txt1">800 руб./сутки</p>
+                    </div>
+                    <div class="inblock_line">
+                        <p class="txt2">Размер номера </p>
+                        <p class="txt3">1500*1500*2100 см</p>
+                    </div>
+                    <div class="inblock_line">
+                        <p class="txt2">Размер домиков</p>
+                        <p>32*32см</p>
+                    </div>
+                    <button class="main_button">Забронировать</button>
+                </div>
+
+                <div class="block_lux">
+                    <img src="./img/люкс.png">
+                    <div class="inblock_line">
+                        <p class="pink_txt_card">Номер "ЛЮКС"</p>
+                        <p class="txt1">1000 руб./сутки</p>
+                    </div>
+                    <div class="inblock_line">
+                        <p class="txt2">Размер номера </p>
+                        <p class="txt3">1500*1500*2100 см</p>
+                    </div>
+                    <div class="inblock_line">
+                        <p class="txt2">Размер домиков</p>
+                        <p>32*32см</p>
+                    </div>
+                    <button class="main_button">Забронировать</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="photo">
+            <h1>Фотогалерея</h1>
+            <div #swiperRef="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src='./img/ph1.png'></div>
+                  <div class="swiper-slide"><img src='./img/ph2.png'></div>
+                  <div class="swiper-slide"><img src='./img/ph3.png'></div>
+                  <div class="swiper-slide"><img src='./img/ph1.png'></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+
+        <div class="tab" id="tab-1">
+            <h1>Условия размещения</h1>
+            <hr>
+            <div class="tab-nav">
+                <button type="button" class="tab-btn tab-btn-active" data-target-id="0">В стоимость проживания включено</button>
+                <button type="button" class="tab-btn" data-target-id="1">Рекомендации</button>
+                <button type="button" class="tab-btn" data-target-id="2">Питание</button>
+                <button type="button" class="tab-btn" data-target-id="3">ВАЖНО!</button>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane tab-pane-show" data-id="0">
+                    <div class="content_line">
+                        <div class="content_column">
+                            <div class="pink_list_line"><img src='./img/розовый кружочек.png'> наполнитель на выбор </div>
+                            <div class="pink_list_line"><img src='./img/розовый кружочек.png'> ежедневные игры и внимание </div>
+                            <div class="pink_list_line"><img src='./img/розовый кружочек.png'> ежедневный фото/видеоотчет </div>
+                            <div class="pink_list_line"><img src='./img/розовый кружочек.png'> лоток </div>
+                            <div class="pink_list_line"><img src='./img/розовый кружочек.png'> мисочки для корма и воды </div>
+                        </div>
+                        <img class="loud" src="./img/котик с громкоговорителем.svg">
+                    </div>
+                </div>
+                <div class="tab-pane" data-id="1">
+                    <div class="content_line">
+                        <div class="content_column">
+                        <p class="grey_txt">Чтобы ускорить период адаптации котика к новым условиям возьмите с собой</p>
+                            <div class="pink_list_line"><img src='./img/розовый кружочек.png'> лежанку </div>
+                            <div class="pink_list_line"><img src='./img/розовый кружочек.png'> любимую игрушку </div>
+                            <div class="pink_list_line"><img src='./img/розовый кружочек.png'> вещь с вашим запахом </div>
+                            <div class="pink_list_line"><img src='./img/розовый кружочек.png'> немного напонителя с его запахом </div>
+                        </div>
+                        <img class="loud" src="./img/котик с громкоговорителем.svg">
+                    </div>
+                </div>
+                <div class="tab-pane" data-id="2">
+                    <div class="content_line">
+                        <p class="txt">
+                            Корм необходимо принести с собой из расчета периода нахождения котика в нашей гостинице, 
+                            согласно индивидуальному плану кормления. В случае, если корм закончится, 
+                            по согласованию с Вами, мы купим корм. При выселении необходимо будет доплатить, согласно чеку за покупку. 
+                        </p>
+                        <img class="loud" src="./img/котик с громкоговорителем.svg">
+                    </div>
+                </div>
+                <div class="tab-pane" data-id="3">
+                    <div class="content_line">
+                        <div class="content_column">
+                            <div class="pink_list_line"><img src='./img/розовый кружочек.png'> Мы ежедневно наблюдаем за поведением и самочувствием Вашего котика! </div>
+                            <div class="pink_list_line"><img src='./img/розовый кружочек.png'> В случае любого отклонения от нормы, мы свяжемся с Вами! </div>
+                            <div class="pink_list_line"><img src='./img/розовый кружочек.png'> При необходимости и с Вашего согласия обратимся в ветеринарную клинику. </div>
+                            <div class="pink_list_line"><img src='./img/розовый кружочек.png'> При выселении необходимо будет доплатить за понесенные расходы, согласно чеку на оказание услуг. </div>
+                        </div>
+                        <img class="loud" src="./img/котик с громкоговорителем.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="application">
+            <h1>Подай заявку на бронирование прямо сейчас!</h1>
+            <button class="pink_button" id="modal_button">Подать заявку</button>
+        </div>
+        
+        <div class="about">
+            <h1>Всё о нас</h1>
+            <div class="about_txt">
+                <div class="about__left">
+                    <img src="./img/где оставит котика.svg">
+                </div>
+                <div class="about__right">
+                    <p class="txt3">Ценность нашей гостиницы в том, что вы можете полностью доверить нам заботу и уход за вашим котиком!</p>
+                    <p class="txt2">Многие из нас, планируя отпуск, или при необходимости уехать в командировку, или в период приезда гостей 
+                        с аллергией и по другим причинам, сталкиваются с данным вопросом.
+                        В маленьких городах этот вопрос решается благодаря помощи родственников и соседей, которые возьмут котика 
+                        к себе или станут регулярно его навещать, чтобы покормить и уделить внимание.
+                        В большом городе данная задача решается сложнее, т.к. из-за неблизких расстояний возникают 
+                        неудобства ежедневно навещать Вашего котика. Данная ситуация негативно сказывается на режиме кормления и 
+                        длительное отсутствие внимания является стрессом для животного.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordeon"> 
+            <h1>Страхи котовладельца</h1>
+            <section class="accordion-block">
+                <div class="container">
+                    <button class="accordion">Вдруг моя кошка почувствует себя плохо, а я на другом конце света и не могу ничего предпринять?</button>
+                    <div class="panel">
+                    <p>При малейшем отклонении от нормы поведения или состояния кошки, мы незамедлительно сообщим Вам. С Вашего согласия мы обратимся в ветеринарную клинику и сообщим о результатах осмотра и принятых ветеринаром решений (при необходимости Вы сможете лично переговорить с врачом).
+                        Если кошечке понадобится лечение, мы осуществим все необходимые действия. При выезде мы предоставим все документы и чеки на оплату услуг ветклиники.</p>
+                    </div>
+        
+                    <button class="accordion">Мою кошку посадят в номер и забудут о ней!</button>
+                    <div class="panel">
+                    <p>При малейшем отклонении от нормы поведения или состояния кошки, мы незамедлительно сообщим Вам. С Вашего согласия мы обратимся в ветеринарную клинику и сообщим о результатах осмотра и принятых ветеринаром решений (при необходимости Вы сможете лично переговорить с врачом).
+                        Если кошечке понадобится лечение, мы осуществим все необходимые действия. При выезде мы предоставим все документы и чеки на оплату услуг ветклиники.</p>
+                    </div>
+        
+                    <button class="accordion">Мой котик боится замкнутых пространств!</button>
+                    <div class="panel">
+                    <p>При малейшем отклонении от нормы поведения или состояния кошки, мы незамедлительно сообщим Вам. С Вашего согласия мы обратимся в ветеринарную клинику и сообщим о результатах осмотра и принятых ветеринаром решений (при необходимости Вы сможете лично переговорить с врачом).
+                        Если кошечке понадобится лечение, мы осуществим все необходимые действия. При выезде мы предоставим все документы и чеки на оплату услуг ветклиники.</p>
+                    </div>
+                </div>
+            </section>
+        </div>      
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <h1>Адрес и контакты</h1>
+            <div class="addres">
+                <p class="txt1">г. Санкт-Петербург ул. Ключевая, д.32 </p>
+                <p class="txt2">Скопировать адрес для навигатора</p>
+            </div>
+            <div class="cart" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a href="https://yandex.ru/maps/2/saint-petersburg/house/klyuchevaya_ulitsa_32/Z0kYcgZhSE0PQFtjfXV2dXpkZQ==/?ll=30.411188%2C59.974671&utm_medium=mapframe&utm_source=maps&z=16.44" style="color:#eee;font-size:12px;position:absolute;top:14px;">Ключевая улица, 32 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=30.411188%2C59.974671&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzQwODA3NRJM0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0JrQu9GO0YfQtdCy0LDRjyDRg9C70LjRhtCwLCAzMiIKDRxK80EVEOZvQg%2C%2C&z=16.44" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+            <div class="inline_txt">
+                <p class="txt">Номера и цены</p>
+                <p class="txt">Заявка на бронирование</p>
+                <p class="txt">Оплатить</p>
+                <p class="txt">Видеонаблюдение</p>
+                <p class="txt">Всё о нас</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal__box"> 
+            <svg id="close_btn" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.4489 17.453C16.8401 18.0603 15.8537 18.0603 15.2441 17.453L9.732 11.9408L4.21989 17.453C3.61107 18.0603 2.62388 18.0603 2.01505 17.453C1.40623 16.838 1.40623 15.857 2.01505 15.242L7.52716 9.72981L2.01505 4.21775C1.40623 3.61049 1.40623 2.62168 2.01505 2.01441C2.62388 1.40715 3.61107 1.40715 4.21989 2.01441L9.732 7.52657L15.2441 2.01441C15.8537 1.40715 16.8401 1.40715 17.4489 2.01441C18.0585 2.62168 18.0585 3.61049 17.4489 4.21775L11.9368 9.72981L17.4489 15.242C18.0585 15.857 18.0585 16.838 17.4489 17.453ZM14.1417 9.72981L18.5521 5.32323C19.769 4.1087 19.769 2.13126 18.5521 0.916736C17.3337 -0.305579 15.3593 -0.305579 14.1417 0.916736L9.732 5.32323L5.32232 0.916736C4.10546 -0.305579 2.13107 -0.305579 0.912648 0.916736C-0.304216 2.13126 -0.304216 4.1087 0.912648 5.32323L5.32232 9.72981L0.912648 14.1442C-0.304216 15.3587 -0.304216 17.3362 0.912648 18.5508C2.13107 19.7731 4.10546 19.7731 5.32232 18.5508L9.732 14.1442L14.1417 18.5508C15.3593 19.7731 17.3337 19.7731 18.5521 18.5508C19.769 17.3362 19.769 15.3587 18.5521 14.1442L14.1417 9.72981Z" fill="#929292"/>
+              </svg>          
+            <div class="modal__box__left">              
+                <img src="./img/котик заявка.svg">
+            </div>
+            <div class="modal__box__right">
+                <div class="modal__box__form">
+                    <input type="name" placeholder="Имя">
+                    <input type="name" placeholder="Дата заезда">
+                    <input type="name" placeholder="Телефон">
+                    <input type="name" placeholder="Дата выезда">
+                    <input type="name" placeholder="Кличка животного">
+                    <input type="name" placeholder="Тип номера">
+                    <input type="name" placeholder="Примечание">
+                </div>
+                <button class="pink_button">Забронировать</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

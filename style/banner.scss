@@ -1,0 +1,65 @@
+.banner {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    .name {
+        color: $black;
+        font-family: Montserrat;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: 48%;
+    }
+
+    .txt {
+        @extend %text_1;
+    }
+
+    .cats {
+        width:66%;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width:230px;
+    gap: 30px;
+    .text-field__input {
+        color: $grey;
+        @extend %text_3;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 1px solid $grey;
+    }
+}
+
+.button_1 {
+        border-radius: 100px;
+        background: $pink_light;
+        color: white;
+        font-family: Montserrat;
+        border: 0px;
+        @extend %text_2;
+        cursor: pointer;
+    }
+
+
+//адаптив
+
+@media (max-width: 1200px) {
+    .cats {
+        width: 47% !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .form {
+        display: none;
+    }
+    .cats {
+        width: 30% !important;
+    }
+}

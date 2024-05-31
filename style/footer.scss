@@ -1,0 +1,50 @@
+.footer {
+    background:  #FAF7F5;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    .addres {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .txt2 {
+            width:28%;
+        }
+    }
+
+    img {
+        width:100%;
+    }
+
+    .cart {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .inline_txt {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .txt {
+            color: $black;
+            font-size: 13px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 100%;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .footer {
+        .inline_txt {
+            display: none;
+        }
+        .txt2 {
+            display: none;
+        }
+    }
+}

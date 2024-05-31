@@ -1,0 +1,86 @@
+.txt4 {
+    color: $black;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.txt4:nth-child(1) {
+    width:30%;
+}
+
+.tab {
+    margin-bottom: 100px;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tab-btn {
+    color: $black;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    background: none;
+    border: 0px;
+}
+
+.tab-btn:hover {
+    color: $pink_light;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    background: none;
+    border: 0px;
+}
+
+.tab-btn-active {
+    color: $pink_dark;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    background: none;
+    border: 0px;
+  }
+
+.tab-pane {
+    display: none;
+    padding-top: 40px;
+  }
+
+.tab-pane-show {
+    display: block;
+}
+
+.content_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content_column {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1000px) {
+    .tab-content {
+        .loud {
+            width:40%;
+        }
+        .content_column {
+            font-size: 30px !important;
+        }
+    }
+}

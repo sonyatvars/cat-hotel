@@ -1,0 +1,7 @@
+@charset "UTF-8";
+.application {
+  background-image: url("/img/заявка.png");
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}/*# sourceMappingURL=application.css.map */

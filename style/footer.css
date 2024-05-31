@@ -1,0 +1,23 @@
+.footer {
+  background: #FAF7F5;
+}
+.footer .addres {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer .addres .txt2 {
+  width: 28%;
+}
+.footer img {
+  width: 100%;
+}
+.footer .inline_txt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .inline_txt .txt {
+  font-size: 13px;
+}/*# sourceMappingURL=footer.css.map */
